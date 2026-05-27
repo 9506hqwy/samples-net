@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,13 +11,13 @@
 
   <PropertyGroup>
     <Authors>9506hqwy</Authors>
-    <Copyright>Copyright (c) 2024 9506hqwy. All Rights Reserved.</Copyright>
-    <Description>This binary is example C# package.</Description>
+    <Copyright>Copyright (c) 2026 9506hqwy. All Rights Reserved.</Copyright>
+    <Description>This binary is sample C# package.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/9506hqwy/template-csharp-package</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/9506hqwy/samples-net</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageVersion>0.1.0</PackageVersion>
-    <RepositoryUrl>https://github.com/9506hqwy/template-csharp-package</RepositoryUrl>
+    <RepositoryUrl>https://github.com/9506hqwy/samples-net</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -29,11 +29,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Example\Example.csproj" />
+    <PackageReference Include="Google.Protobuf" Version="3.35.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.80.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.80.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <Protobuf Include="..\proto\service.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

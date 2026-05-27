@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/grpc/" />
+  <Folder Name="/grpc/client/">
+    <Project Path="grpc/client/GrpcClient.csproj" />
+  </Folder>
+  <Folder Name="/grpc/server/">
+    <Project Path="grpc/server/GrpcServer.csproj" />
+  </Folder>
+</Solution>
