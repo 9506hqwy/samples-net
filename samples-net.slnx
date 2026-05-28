@@ -6,4 +6,8 @@
   <Folder Name="/grpc/server/">
     <Project Path="grpc/server/GrpcServer.csproj" />
   </Folder>
+  <Folder Name="/service/" />
+  <Folder Name="/service/systemd/">
+    <Project Path="service/systemd/Service.csproj" />
+  </Folder>
 </Solution>
