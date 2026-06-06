@@ -3,7 +3,7 @@ using Grpc.Net.Client;
 using HelloWorld;
 using WellKnownTypes = Google.Protobuf.WellKnownTypes;
 
-using var httpHandler = new HttpClientHandler
+using var httpHandler = new HttpClientDumpHandler
 {
     ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator,
 };
