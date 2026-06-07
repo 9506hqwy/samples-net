@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/asp/" />
+  <Folder Name="/asp/aaa/">
+    <Project Path="asp/aaa/Aaa.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
