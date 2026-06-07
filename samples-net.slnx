@@ -3,6 +3,9 @@
   <Folder Name="/asp/aaa/">
     <Project Path="asp/aaa/Aaa.csproj" />
   </Folder>
+  <Folder Name="/asp/conf/">
+    <Project Path="asp/conf/Conf.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
