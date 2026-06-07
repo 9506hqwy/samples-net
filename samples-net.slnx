@@ -6,18 +6,18 @@
   <Folder Name="/asp/conf/">
     <Project Path="asp/conf/Conf.csproj" />
   </Folder>
+  <Folder Name="/asp/service/" />
+  <Folder Name="/asp/service/nt/">
+    <Project Path="asp/service/nt/Service.csproj" />
+  </Folder>
+  <Folder Name="/asp/service/systemd/">
+    <Project Path="asp/service/systemd/Service.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
   </Folder>
   <Folder Name="/grpc/server/">
     <Project Path="grpc/server/GrpcServer.csproj" />
-  </Folder>
-  <Folder Name="/service/" />
-  <Folder Name="/service/nt/">
-    <Project Path="service/nt/Service.csproj" />
-  </Folder>
-  <Folder Name="/service/systemd/">
-    <Project Path="service/systemd/Service.csproj" />
   </Folder>
 </Solution>
