@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/archive/" />
+  <Folder Name="/archive/zip/">
+    <Project Path="archive/zip/Zip.csproj" />
+  </Folder>
   <Folder Name="/asp/" />
   <Folder Name="/asp/aaa/">
     <Project Path="asp/aaa/Aaa.csproj" />
