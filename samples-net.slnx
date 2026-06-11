@@ -10,6 +10,9 @@
   <Folder Name="/asp/conf/">
     <Project Path="asp/conf/Conf.csproj" />
   </Folder>
+  <Folder Name="/asp/page/">
+    <Project Path="asp/page/Page.csproj" />
+  </Folder>
   <Folder Name="/asp/service/" />
   <Folder Name="/asp/service/nt/">
     <Project Path="asp/service/nt/Service.csproj" />

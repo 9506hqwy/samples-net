@@ -24,6 +24,10 @@ dotnet_diagnostic.IDE0022.severity = silent
 dotnet_diagnostic.IDE0160.severity = silent
 dotnet_diagnostic.CS1591.severity = silent
 
+[*.cshtml]
+charset = utf-8-bom
+indent_size = 2
+
 [*.{ini,toml}]
 indent_size = 2
 
