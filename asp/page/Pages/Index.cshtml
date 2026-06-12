@@ -4,6 +4,10 @@
   ViewData["Title"] = "Hello World!";
 }
 
+@section Head {
+  <link rel="stylesheet" href="~/Page.styles.css" asp-append-version="true" />
+}
+
 <h1 id="title">@ViewData["Title"]</h1>
 
 @{
