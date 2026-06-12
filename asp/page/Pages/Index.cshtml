@@ -1,6 +1,21 @@
 ﻿@page
+@model IndexModel
 @{
   ViewData["Title"] = "Hello World!";
 }
 
 <h1 id="title">@ViewData["Title"]</h1>
+
+@{
+  if (!string.IsNullOrWhiteSpace(Model.Name))
+  {
+    <p>Welcome, @Model.Name!</p>
+  }
+}
+
+<!-- without 'action', because csrf token does not insert with 'action'. -->
+<form method="post">
+  <input type="text" name="name" placeholder="Enter your name" />
+
+  <button type="submit">Submit</button>
+</form>
