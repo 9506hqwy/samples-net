@@ -20,6 +20,10 @@
   <Folder Name="/asp/service/systemd/">
     <Project Path="asp/service/systemd/Service.csproj" />
   </Folder>
+  <Folder Name="/crypto/" />
+  <Folder Name="/crypto/aes256/">
+    <Project Path="crypto/aes256/Aes.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
