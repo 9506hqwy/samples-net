@@ -24,6 +24,9 @@
   <Folder Name="/crypto/aes256/">
     <Project Path="crypto/aes256/Aes.csproj" />
   </Folder>
+  <Folder Name="/crypto/list/">
+    <Project Path="crypto/list/ListCrypto.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
