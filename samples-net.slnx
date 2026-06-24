@@ -27,6 +27,10 @@
   <Folder Name="/crypto/list/">
     <Project Path="crypto/list/ListCrypto.csproj" />
   </Folder>
+  <Folder Name="/cswin32/" />
+  <Folder Name="/cswin32/change-window-style/">
+    <Project Path="cswin32/change-window-style/ChangeWindowStyle.csproj" />
+  </Folder>
   <Folder Name="/grpc/" />
   <Folder Name="/grpc/client/">
     <Project Path="grpc/client/GrpcClient.csproj" />
