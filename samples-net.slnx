@@ -42,6 +42,9 @@
   <Folder Name="/service/nt/">
     <Project Path="service/nt/Service.csproj" />
   </Folder>
+  <Folder Name="/service/systemd/">
+    <Project Path="service/systemd/Service.csproj" />
+  </Folder>
   <Folder Name="/wsman/" />
   <Folder Name="/wsman/query-wql/">
     <Project Path="wsman/query-wql/QueryWql.csproj" />

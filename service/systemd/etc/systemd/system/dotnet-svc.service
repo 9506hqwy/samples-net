@@ -1,0 +1,9 @@
+[Unit]
+Description=Sample .Net Service
+
+[Service]
+ExecStart=/opt/linux-x64/Service
+Type=notify
+
+[Install]
+WantedBy=multi-user.target
